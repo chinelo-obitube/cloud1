@@ -19,15 +19,14 @@ Clone the repository
 
 Cd into the repository and checkout to the stable branch
 
-Run _docker build --tag scacloudschoolapplication:v2.0.0 ._ to build the docker image locally
+Run ```docker build --tag scacloudschoolapplication:v2.0.0 .``` to build the docker image locally
 
 To test the application, use the command docker run --publish 5000:5000 scacloudschoolapplication
 ![feature-docker](https://user-images.githubusercontent.com/74656858/126865344-d77feceb-cd87-471a-b30a-99ce02cccb3f.PNG)
 
 
-Run docker run --network="host" scacloud to run the container locally
-
-Note that the container runs on http:localhost:5000
+Note that the container runs on ```http:localhost:5000```
 
 Building on the exisitng image
-You can pull this image directly from Docker Hub using the command _docker pull culnellie/scacloudapplication:v2.0.0_
+
+You can pull this image directly from Docker Hub using the command ```docker pull culnellie/scacloudapplication:v2.0.0```
