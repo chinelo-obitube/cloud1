@@ -11,7 +11,7 @@ Pip:pip is a package-management system written in Python used to install and man
 Docker: A container platform that allows you to deploy an application and its dependencies only
 
 **Link to Docker Repository**
-https://hub.docker.com/repository/docker/culnellie/scacloudapplication
+https://hub.docker.com/repository/docker/culnellie/sca-cloud-school-application
 
 **Instructions**
 
